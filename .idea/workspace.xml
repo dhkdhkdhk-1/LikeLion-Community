@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70fcb317-9b7d-4933-905e-ea6dc0424d50" name="Changes" comment="spring-setting">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+    <list default="true" id="70fcb317-9b7d-4933-905e-ea6dc0424d50" name="Changes" comment="spring-setting-yaml">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,23 +59,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000187612097842" />
-      <entry key="MS500" value="1.2154222082030484" />
-      <entry key="S2" value="2.7778689505292515" />
-      <entry key="S5" value="5.210189863730239" />
-      <entry key="S10" value="7.37498982836605" />
-      <entry key="S30" value="10.745766914656969" />
-      <entry key="S60" value="12.451100141782455" />
-      <entry key="M2" value="13.592779875752132" />
-      <entry key="M5" value="14.599598676975077" />
-      <entry key="M10" value="15.588602661340131" />
-      <entry key="M15" value="16.268782586612936" />
-      <entry key="M30" value="17.32513197178475" />
-      <entry key="H1" value="18.064926154245104" />
-      <entry key="H2" value="18.504924325708103" />
-      <entry key="H4" value="18.74514238605588" />
-      <entry key="D1" value="18.95646791622755" />
-      <entry key="W1" value="18.993754747416084" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000102" />
+      <entry key="S5" value="1.000008804887164" />
+      <entry key="S10" value="1.0095873050989086" />
+      <entry key="S30" value="2.172777945428158" />
+      <entry key="S60" value="5.1133618249936115" />
+      <entry key="M2" value="8.812731109168471" />
+      <entry key="M5" value="12.698731007047975" />
+      <entry key="M10" value="14.954237364481617" />
+      <entry key="M15" value="16.110807318677047" />
+      <entry key="M30" value="17.69716956981104" />
+      <entry key="H1" value="18.73451613306195" />
+      <entry key="H2" value="19.334914537978754" />
+      <entry key="H4" value="19.65883532874114" />
+      <entry key="D1" value="19.941893255663775" />
+      <entry key="W1" value="19.991667869888797" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -96,23 +97,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9396990105672117" />
-      <entry key="MS500" value="1.1857410028141055" />
-      <entry key="S2" value="2.644522717600603" />
-      <entry key="S5" value="5.086659874502548" />
-      <entry key="S10" value="7.290425602333134" />
-      <entry key="S30" value="10.708507414495047" />
-      <entry key="S60" value="12.430408150767573" />
-      <entry key="M2" value="13.581751675907416" />
-      <entry key="M5" value="14.594789425749305" />
-      <entry key="M10" value="15.585801057614823" />
-      <entry key="M15" value="16.266705784301234" />
-      <entry key="M30" value="17.323924017104588" />
-      <entry key="H1" value="18.064261488526128" />
-      <entry key="H2" value="18.504573789062217" />
-      <entry key="H4" value="18.744962129550167" />
-      <entry key="D1" value="18.95643714050833" />
-      <entry key="W1" value="18.993750332388935" />
+      <entry key="MS100" value="0.9592641193252643" />
+      <entry key="MS500" value="0.9917167307382933" />
+      <entry key="S2" value="0.9979227189990604" />
+      <entry key="S5" value="0.9991771653430012" />
+      <entry key="S10" value="1.0090615718494682" />
+      <entry key="S30" value="2.168572875956386" />
+      <entry key="S60" value="5.1064566793012345" />
+      <entry key="M2" value="8.806357766667093" />
+      <entry key="M5" value="12.69486346728231" />
+      <entry key="M10" value="14.951722559542318" />
+      <entry key="M15" value="16.108873717501393" />
+      <entry key="M30" value="17.69600308786628" />
+      <entry key="H1" value="18.73386246892713" />
+      <entry key="H2" value="19.33456664418617" />
+      <entry key="H4" value="19.658655613367618" />
+      <entry key="D1" value="19.94186245547122" />
+      <entry key="W1" value="19.991663448470273" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -127,6 +128,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Gradle.Build LikeLion-Community.executor": "Run",
+    "Gradle.LikeLion-Community [:likelion.community.CommunityApplication.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -139,6 +141,20 @@
     "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="CommunityApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="likelion.community.CommunityApplication" />
+      <module name="community.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CommunityApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="70fcb317-9b7d-4933-905e-ea6dc0424d50" name="Changes" comment="" />
@@ -152,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="spring-setting" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-setting" />
+    <MESSAGE value="spring-setting-yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-setting-yaml" />
   </component>
 </project>

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70fcb317-9b7d-4933-905e-ea6dc0424d50" name="Changes" comment="spring-setting-yaml">
+    <list default="true" id="70fcb317-9b7d-4933-905e-ea6dc0424d50" name="Changes" comment="spring-setting-sql">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -61,21 +62,21 @@
     <decayedCancelled>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000102" />
-      <entry key="S5" value="1.000008804887164" />
-      <entry key="S10" value="1.0095873050989086" />
-      <entry key="S30" value="2.172777945428158" />
-      <entry key="S60" value="5.1133618249936115" />
-      <entry key="M2" value="8.812731109168471" />
-      <entry key="M5" value="12.698731007047975" />
-      <entry key="M10" value="14.954237364481617" />
-      <entry key="M15" value="16.110807318677047" />
-      <entry key="M30" value="17.69716956981104" />
-      <entry key="H1" value="18.73451613306195" />
-      <entry key="H2" value="19.334914537978754" />
-      <entry key="H4" value="19.65883532874114" />
-      <entry key="D1" value="19.941893255663775" />
-      <entry key="W1" value="19.991667869888797" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000074767" />
+      <entry key="S60" value="1.0000094852821253" />
+      <entry key="M2" value="1.0120027948514956" />
+      <entry key="M5" value="1.9066278786097772" />
+      <entry key="M10" value="4.995753077396694" />
+      <entry key="M15" value="7.683545138723651" />
+      <entry key="M30" value="12.398523610369006" />
+      <entry key="H1" value="16.035396183600795" />
+      <entry key="H2" value="18.32121907237365" />
+      <entry key="H4" value="19.606979695368818" />
+      <entry key="D1" value="20.759960422259326" />
+      <entry key="W1" value="20.96551014034279" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -99,21 +100,21 @@
     <decayedShown>
       <entry key="MS100" value="0.9592641193252643" />
       <entry key="MS500" value="0.9917167307382933" />
-      <entry key="S2" value="0.9979227189990604" />
-      <entry key="S5" value="0.9991771653430012" />
-      <entry key="S10" value="1.0090615718494682" />
-      <entry key="S30" value="2.168572875956386" />
-      <entry key="S60" value="5.1064566793012345" />
-      <entry key="M2" value="8.806357766667093" />
-      <entry key="M5" value="12.69486346728231" />
-      <entry key="M10" value="14.951722559542318" />
-      <entry key="M15" value="16.108873717501393" />
-      <entry key="M30" value="17.69600308786628" />
-      <entry key="H1" value="18.73386246892713" />
-      <entry key="H2" value="19.33456664418617" />
-      <entry key="H4" value="19.658655613367618" />
-      <entry key="D1" value="19.94186245547122" />
-      <entry key="W1" value="19.991663448470273" />
+      <entry key="S2" value="0.9979227189990506" />
+      <entry key="S5" value="0.999168569213607" />
+      <entry key="S10" value="0.9995841981612189" />
+      <entry key="S30" value="0.9998613801799664" />
+      <entry key="S60" value="0.9999401601572391" />
+      <entry key="M2" value="1.011959457705345" />
+      <entry key="M5" value="1.9063378921581544" />
+      <entry key="M10" value="4.995074193288917" />
+      <entry key="M15" value="7.682738366099135" />
+      <entry key="M30" value="12.397769983579561" />
+      <entry key="H1" value="16.034870429846745" />
+      <entry key="H2" value="18.320906833451424" />
+      <entry key="H4" value="19.60680930694328" />
+      <entry key="D1" value="20.75992985492625" />
+      <entry key="W1" value="20.96550571783293" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -169,6 +170,7 @@
     <MESSAGE value="start" />
     <MESSAGE value="spring-setting" />
     <MESSAGE value="spring-setting-yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring-setting-yaml" />
+    <MESSAGE value="spring-setting-sql" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-setting-sql" />
   </component>
 </project>

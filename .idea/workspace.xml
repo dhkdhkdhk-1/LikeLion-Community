@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70fcb317-9b7d-4933-905e-ea6dc0424d50" name="Changes" comment="start">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    <list default="true" id="70fcb317-9b7d-4933-905e-ea6dc0424d50" name="Changes" comment="spring-setting">
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,23 +58,23 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000089034917" />
-      <entry key="MS500" value="1.034743090359488" />
-      <entry key="S2" value="2.1791915441906813" />
-      <entry key="S5" value="4.131067632150311" />
-      <entry key="S10" value="5.743717289111361" />
-      <entry key="S30" value="8.418611501634805" />
-      <entry key="S60" value="9.843549687919545" />
-      <entry key="M2" value="10.807851222629791" />
-      <entry key="M5" value="11.692400497537388" />
-      <entry key="M10" value="12.638472138177491" />
-      <entry key="M15" value="13.303637041119627" />
-      <entry key="M30" value="14.343812348850108" />
-      <entry key="H1" value="15.074705900810299" />
-      <entry key="H2" value="15.509944996849663" />
-      <entry key="H4" value="15.747688435897805" />
-      <entry key="D1" value="15.95689749509813" />
-      <entry key="W1" value="15.993816247846146" />
+      <entry key="MS100" value="1.000187612097842" />
+      <entry key="MS500" value="1.2154222082030484" />
+      <entry key="S2" value="2.7778689505292515" />
+      <entry key="S5" value="5.210189863730239" />
+      <entry key="S10" value="7.37498982836605" />
+      <entry key="S30" value="10.745766914656969" />
+      <entry key="S60" value="12.451100141782455" />
+      <entry key="M2" value="13.592779875752132" />
+      <entry key="M5" value="14.599598676975077" />
+      <entry key="M10" value="15.588602661340131" />
+      <entry key="M15" value="16.268782586612936" />
+      <entry key="M30" value="17.32513197178475" />
+      <entry key="H1" value="18.064926154245104" />
+      <entry key="H2" value="18.504924325708103" />
+      <entry key="H4" value="18.74514238605588" />
+      <entry key="D1" value="18.95646791622755" />
+      <entry key="W1" value="18.993754747416084" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -99,23 +96,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.03396046453802223" />
-      <entry key="MS500" value="0.5269558457932846" />
-      <entry key="S2" value="1.9289753497844682" />
-      <entry key="S5" value="3.9931718319537355" />
-      <entry key="S10" value="5.66431806802578" />
-      <entry key="S30" value="8.386954415808097" />
-      <entry key="S60" value="9.826274746268888" />
-      <entry key="M2" value="10.798706341401141" />
-      <entry key="M5" value="11.688388948408356" />
-      <entry key="M10" value="12.63607649302274" />
-      <entry key="M15" value="13.301832586572843" />
-      <entry key="M30" value="14.342741593715834" />
-      <entry key="H1" value="15.074110156151601" />
-      <entry key="H2" value="15.50962901372087" />
-      <entry key="H4" value="15.747525481367482" />
-      <entry key="D1" value="15.956869606732171" />
-      <entry key="W1" value="15.993812245391034" />
+      <entry key="MS100" value="0.9396990105672117" />
+      <entry key="MS500" value="1.1857410028141055" />
+      <entry key="S2" value="2.644522717600603" />
+      <entry key="S5" value="5.086659874502548" />
+      <entry key="S10" value="7.290425602333134" />
+      <entry key="S30" value="10.708507414495047" />
+      <entry key="S60" value="12.430408150767573" />
+      <entry key="M2" value="13.581751675907416" />
+      <entry key="M5" value="14.594789425749305" />
+      <entry key="M10" value="15.585801057614823" />
+      <entry key="M15" value="16.266705784301234" />
+      <entry key="M30" value="17.323924017104588" />
+      <entry key="H1" value="18.064261488526128" />
+      <entry key="H2" value="18.504573789062217" />
+      <entry key="H4" value="18.744962129550167" />
+      <entry key="D1" value="18.95643714050833" />
+      <entry key="W1" value="18.993750332388935" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -126,20 +123,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Gradle.Build LikeLion-Community.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="70fcb317-9b7d-4933-905e-ea6dc0424d50" name="Changes" comment="" />
@@ -152,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
-    <option name="LAST_COMMIT_MESSAGE" value="start" />
+    <MESSAGE value="spring-setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring-setting" />
   </component>
 </project>

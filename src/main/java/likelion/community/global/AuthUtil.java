@@ -30,4 +30,28 @@ public final class AuthUtil {
         }
         return memberId;
     }
+
+    public static Long getLoginMemberIdOrNull(HttpSession session) {
+        if (session == null) {
+            return null;
+        }
+
+        Object memberId = session.getAttribute(MEMBER_ID);
+
+        if (memberId instanceof Long id) {
+            return id;
+        }
+
+        return null;
+    }
+
+    public static boolean isAdmin(HttpSession session) {
+        return session != null
+                && ADMIN_ROLE.equals(session.getAttribute(ROLE));
+    }
+
+    public static void login(HttpSession session, Long memberId, String role) {
+        session.setAttribute(MEMBER_ID, memberId);
+        session.setAttribute(ROLE, role);
+    }
 }

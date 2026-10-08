@@ -8,6 +8,9 @@ import likelion.community.interaction.repository.BookmarkRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.dao.DuplicateKeyException;
 import org.springframework.stereotype.Service;
+import likelion.community.interaction.dto.BookmarkPageResponse;
+import likelion.community.interaction.dto.BookmarkedPostResponse;
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor
@@ -38,5 +41,15 @@ public class BookmarkService {
             throw new CustomException(ErrorCode.INVALID_INPUT);
         }
         return new BookmarkResponse(false);
+    }
+    public BookmarkPageResponse getMyBookmarks(Long memberId, int page, int size) {
+        if (page < 0 || size < 1 || size > 50) {
+            throw new CustomException(ErrorCode.INVALID_INPUT);
+        }
+        List<BookmarkedPostResponse> content =
+                bookmarkRepository.findByMemberId(memberId, size, page * size);
+        long total = bookmarkRepository.countByMemberId(memberId);
+        int totalPages = (int) Math.ceil((double) total / size);
+        return new BookmarkPageResponse(content, page, size, total, totalPages);
     }
 }
